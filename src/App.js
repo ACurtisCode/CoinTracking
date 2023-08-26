@@ -12,9 +12,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router basename ="/CoinTracking">
+      <Router basename={window.location.pathname || ''}>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route exact path="/" element={<Main />} />
           <Route path="/main" element={<Main />} />
           <Route path="/login" element={<Login />} />
         </Routes>
