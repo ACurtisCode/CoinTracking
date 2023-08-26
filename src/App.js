@@ -16,9 +16,9 @@ function App() {
       <HashRouter>
 
         <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route path="/main" element={<Main />} />
-          <Route path="/login" element={<Login />} />
+          <Route exact path="/CoinTracking" element={<Main />} />
+          <Route path="/CoinTracking/main" element={<Main />} />
+          <Route path="/CoinTracking/login" element={<Login />} />
         </Routes>
  
       </HashRouter>
