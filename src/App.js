@@ -14,13 +14,13 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-      <Router>
+
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route path="/main" element={<Main />} />
           <Route path="/login" element={<Login />} />
         </Routes>
-      </Router>
+ 
       </HashRouter>
     </div>
   )
