@@ -12,10 +12,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename ="/CoinTracking">
         <Routes>
-          <Route path="/CoinTracking/" element={<Main />} />
-          <Route path="/CoinTracking/main" element={<Main />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/main" element={<Main />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
